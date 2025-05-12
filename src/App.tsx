@@ -210,74 +210,66 @@ function App() {
         </div>
       </section>
                       
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50 px-6 sm:px-12">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Meet Our Team</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">Our experienced agents are ready to help you find your perfect property</p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            <AgentCard 
-              image="https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              name="Sarah Johnson"
-              position="Senior Agent"
-              phone="+1 (555) 123-4567"
-              email="sarah@example.com"
-            />
-            
-            <AgentCard 
-              image="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              name="David Wilson"
-              position="Property Consultant"
-              phone="+1 (555) 987-6543"
-              email="david@example.com"
-            />
-            
-            <AgentCard 
-              image="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              name="Emily Rodriguez"
-              position="Luxury Specialist"
-              phone="+1 (555) 456-7890"
-              email="emily@example.com"
-            />
-            
-            <AgentCard 
-              image="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              name="Michael Chen"
-              position="Commercial Expert"
-              phone="+1 (555) 234-5678"
-              email="michael@example.com"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-customBlue px-6 sm:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Find Your Dream Home?</h2>
-              <p className="text-xl text-blue-100 mb-8">Connect with our expert agents today and take the first step towards finding your perfect property.</p>
-              <div className="flex flex-wrap gap-4">
-                <a href="#contact" className="bg-white text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-md transition-all">Contact Us Today</a>
-                <a href="#" className="bg-transparent text-white border border-white hover:bg-blue-700 font-semibold py-3 px-6 rounded-md transition-all">Browse Properties</a>
-              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Griselda Melchor</h2>
+              <p className="text-xl text-blue-100 mb-8">Con más de 15 años de experiencia en el mercado inmobiliario de Veracruz, Griselda Melchor, asesora certificada, ha acompañado a cientos de familias e inversionistas a concretar sus metas con confianza y seguridad. </p><p className="text-xl text-blue-100 mb-8">
+              Fundó i22 Inmobiliaria con la misión de ofrecer un servicio profesional, transparente y humano, enfocado en lograr resultados reales para quienes compran, venden o invierten.
+              </p>
             </div>
             <div className="relative">
-              <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Dream home" className="rounded-lg shadow-lg w-full h-auto object-cover" />
+              <img src="" alt="Griselda Image" className="rounded-lg shadow-lg w-full h-auto object-cover" />
             </div>
           </div>
         </div>
       </section>
+      {/* Team Section */}
+      <section className="py-20 bg-gray-50 px-6 sm:px-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-customBlue mb-4">Conoce a Nuestro Equipo</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">TEXTO AQUÍ</p>
+          </div>
+          
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <AgentCard 
+              image=""
+              name="Chox"
+              position="Agente"
+              phone="2294342126"
+              email="chox@gmail.com"
+            />
+            
+            <AgentCard 
+              image=""
+              name="Chox"
+              position="Agente"
+              phone="2294342126"
+              email="chox@gmail.com"
+            />
+            
+            <AgentCard 
+              image=""
+              name="Chox"
+              position="Agente"
+              phone="2294342126"
+              email="chox@gmail.com"
+            />
+            
+          </div>
+        </div>
+      </section>
+
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 sm:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Contactanos</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Contáctanos</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">Have questions about a property or need assistance? Get in touch with us today</p>
           </div>
           
