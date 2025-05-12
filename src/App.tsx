@@ -291,7 +291,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Dirección</h4>
-                      <p className="text-gray-600">Liquidambar<br />Veracruz, Ver</p>
+                      <p className="text-gray-600">Boca del Río, Veracruz</p>
                     </div>
                   </div>
                   
@@ -301,7 +301,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Teléfono</h4>
-                      <p className="text-gray-600">229293232</p>
+                      <p className="text-gray-600">+52 2292655313</p>
                     </div>
                   </div>
                   
@@ -311,7 +311,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Email</h4>
-                      <p className="text-gray-600">chox@chox.com</p>
+                      <p className="text-gray-600">i22veracruz@gmail.com</p>
                     </div>
                   </div>
                   
