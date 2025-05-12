@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <a href="#" className="flex items-center">
             <img style={{ width: "120px" }} src={logo} alt="logo" />
-            <p className="ml-5 text-customBlue text-sm flex item-start ">+52 2294342126</p>
+            <a href="https://wa.me/522292655313" className="ml-5 text-customBlue text-sm flex item-start ">+52 2292655313</a>
           </a>
 
           {/* Desktop Menu */}

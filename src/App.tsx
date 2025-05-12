@@ -51,10 +51,10 @@ function App() {
             <div className="flex justify-center mb-24">
               <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
                 <button className="text-xs sm:text-sm md:text-base lg:text-lg border-2 border-customBlue text-customBlue py-1 sm:py-2 md:py-3 px-2 sm:px-3 md:px-6 rounded-lg hover:bg-customBlue hover:text-white transition duration-300 w-full">
-                  <a href="#vender">Vende con Nosotros</a>
+                  <a href="#vender">Vender</a>
                 </button>
                 <button className="text-xs sm:text-sm md:text-base lg:text-lg border-2 border-customBlue text-customBlue py-1 sm:py-2 px-2 sm:px-3 md:px-6 rounded-md hover:bg-customBlue hover:text-white transition duration-300 w-full">
-                  <a href="https://www.lamudi.com.mx/inmobiliaria/5090dbe2-7dbf-4163-950f-11d3d23eda69">Compra con Nosotros</a>
+                  <a href="https://www.lamudi.com.mx/inmobiliaria/5090dbe2-7dbf-4163-950f-11d3d23eda69">Comprar</a>
                 </button>
               </div>
             </div>
@@ -159,7 +159,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-gray-700 mb-3">Vendemos tu Propiedad</h3>
               <p className="text-gray-600 mb-4">Nos encargamos de todo el proceso: desde la promoción y búsqueda de compradores hasta el cierre de la venta. Conoce el valor real de tu propiedad y véndela de forma rápida, segura y sin complicaciones.</p>
-              <a href="#" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
+              <a href="#contacto" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
                 <span>Háblanos sobre tu Propiedad</span>
                 <ArrowRight className="h-4 w-4" />
               </a>
@@ -171,7 +171,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">Compra con Nosotros</h3>
               <p className="text-gray-600 mb-4">Te ayudamos a encontrar la propiedad ideal para ti. Te acompañamos en cada paso: desde la búsqueda hasta la firma, brindándote asesoría personalizada, seguridad y confianza en todo el proceso.</p>
-              <a href="#" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
+              <a href="https://www.lamudi.com.mx/inmobiliaria/5090dbe2-7dbf-4163-950f-11d3d23eda69" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
                 <span>Mira Nuestro Catalogo</span>
                 <ArrowRight className="h-4 w-4" />
               </a>
@@ -183,7 +183,7 @@ function App() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">Gestionamos tus Rentas</h3>
               <p className="text-gray-600 mb-4">¿Tienes una propiedad en renta o estás buscando una? Nos encargamos de la promoción, selección de inquilinos y administración para que obtengas el mejor rendimiento sin preocupaciones.</p>
-              <a href="#" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
+              <a href="#contacto" className="text-customBlue font-medium flex items-center gap-1 hover:text-customBlueHover transition-all">
                 <span>Contáctanos</span>
                 <ArrowRight className="h-4 w-4" />
               </a>
