@@ -45,12 +45,19 @@ function App() {
               Inmobiliaria
               </span>
             </h1>
-            <p className="w-full sm:max-w-none max-w-[300px] sm:font-light px-2 sm:px-4 text-base sm:text-xl lg:text-3xl text-gray-600 mb-8 text-center mx-auto">
+            <p className="w-full sm:max-w-none max-w-[300px] sm:font-light px-2 sm:px-4 text-xs sm:text-xs lg:text-3xl text-gray-600 mb-8 text-center mx-auto">
               Compra y vende con asesoría profesional
             </p>
-            <button className="text-sm md:text-base lg:text-lg border-2 border-customBlue text-customBlue py-2 md:py-3 px-3 md:px-6 rounded-lg hover:bg-customBlue hover:text-white transition duration-300">
-              <a href="#vender">Vende con Nosotros</a>
-            </button>
+            <div className="flex justify-center mb-24">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
+                <button className="text-xs sm:text-sm md:text-base lg:text-lg border-2 border-customBlue text-customBlue py-1 sm:py-2 md:py-3 px-2 sm:px-3 md:px-6 rounded-lg hover:bg-customBlue hover:text-white transition duration-300 w-full">
+                  <a href="#vender">Vender</a>
+                </button>
+                <button className="text-xs sm:text-sm md:text-base lg:text-lg border-2 border-customBlue text-customBlue py-1 sm:py-2 px-2 sm:px-3 md:px-6 rounded-md hover:bg-customBlue hover:text-white transition duration-300 w-full">
+                  <a href="https://www.lamudi.com.mx/inmobiliaria/5090dbe2-7dbf-4163-950f-11d3d23eda69">Comprar</a>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
