@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
             <a href="#vender" className="font-medium text-gray-700 hover:text-customBlue">Vender</a>
             <a href="#servicios" className="font-medium text-gray-700 hover:text-customBlue">Servicios</a>
             <a href="#nosotros" className="font-medium text-gray-700 hover:text-customBlue">Nosotros</a>
-            <a href="#contact" className="font-medium text-gray-700 hover:text-customBlue">Contact</a>
+            <a href="#contact" className="font-medium text-gray-700 hover:text-customBlue">Contacto</a>
           </Scrollspy>
 
           {/* Mobile Menu Button */}

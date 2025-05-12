@@ -56,7 +56,7 @@ function App() {
 
       </section>
 
-      <section id="vender" data-aos="fade-right" className="py-36">
+      <section id="vender" data-aos="fade-down" className="py-36">
         <div className="max-w-7xl mx-auto px-6 sm:px-12 md:px-24 lg:px-10">
           {/* Ahora este div tiene el mismo padding horizontal que tu Navbar */}
           
@@ -138,7 +138,7 @@ function App() {
 
 
       {/* Services Section */}
-      <section id="servicios" className="py-20 px-6  ">
+      <section data-aos="fade-down" id="servicios" className="py-20 px-6  ">
         <div className="max-w-7xl mx-auto px-6 sm:px-12 md:px-24 lg:px-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-customBlue mb-4">Nuestros Servicios</h2>
@@ -187,7 +187,7 @@ function App() {
       </section>
 
             {/* About Us Section */}
-      <section id="nosotros" data-aos="fade-up" className="py-36 bg-white px-6 sm:px-12">
+      <section id="nosotros" data-aos="fade-down" className="py-36 bg-white px-6 sm:px-12">
         <div className="max-w-7xl mx-auto px-6 sm:px-12 md:px-20 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -211,7 +211,7 @@ function App() {
       </section>
                       
       {/* CTA Section */}
-      <section className="py-20 bg-customBlue px-6 sm:px-12">
+      <section data-aos="fade-down" className="py-20 bg-customBlue px-6 sm:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -227,7 +227,7 @@ function App() {
         </div>
       </section>
       {/* Team Section */}
-      <section className="py-20 bg-gray-50 px-6 sm:px-12">
+      <section data-aos="fade-down" className="py-20 bg-gray-50 px-6 sm:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-customBlue mb-4">Conoce a Nuestro Equipo</h2>
@@ -266,25 +266,25 @@ function App() {
 
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-6 sm:px-12">
+      <section data-aos="fade-down" id="contact" className="py-20 px-6 sm:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Contáctanos</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">Have questions about a property or need assistance? Get in touch with us today</p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">TEXTO</p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">          
             <div>
               <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 mb-8">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-bold text-gray-800 mb-6">Contacto</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-50 p-3 rounded-full flex-shrink-0">
                       <MapPin className="h-6 w-6 text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Address</h4>
-                      <p className="text-gray-600">123 Real Estate Avenue<br />Cityville, State 12345</p>
+                      <h4 className="font-semibold text-gray-800">Dirección</h4>
+                      <p className="text-gray-600">Liquidambar<br />Veracruz, Ver</p>
                     </div>
                   </div>
                   
@@ -293,8 +293,8 @@ function App() {
                       <Phone className="h-6 w-6 text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Phone</h4>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <h4 className="font-semibold text-gray-800">Teléfono</h4>
+                      <p className="text-gray-600">229293232</p>
                     </div>
                   </div>
                   
@@ -304,7 +304,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800">Email</h4>
-                      <p className="text-gray-600">info@realestate.com</p>
+                      <p className="text-gray-600">chox@chox.com</p>
                     </div>
                   </div>
                   
@@ -313,8 +313,8 @@ function App() {
                       <Calendar className="h-6 w-6 text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-800">Office Hours</h4>
-                      <p className="text-gray-600">Monday - Friday: 9am - 6pm<br />Saturday: 10am - 4pm<br />Sunday: Closed</p>
+                      <h4 className="font-semibold text-gray-800">Horario de Atención</h4>
+                      <p className="text-gray-600">Lunes - Viernes: 9am - 6pm<br />Sábado: 10am - 4pm<br />Domingo: Cerrado</p>
                     </div>
                   </div>
                 </div>
